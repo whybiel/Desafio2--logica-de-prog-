@@ -7,7 +7,7 @@ if(age >= 18){
 }
 //2 - Crie uma condição que exiba uma mensagem no console se você for maior de idade E a variável "humano" seja true
 let humano = "true"
-if(age >= 18 && humano == true){
+if(age >= 18 && humano == "true"){
     console.log("Você é um humano de maior")
 }else{
     console.log("Você não pode acessar esse site")
@@ -31,7 +31,7 @@ if( nome[0] == "R"){
 }
 //5 - Criar uma condição que exiba uma mensagem no console se seu sobrenome tenha mais de 6 letras OU seu nome começar com a letra E
 const sobrenome = "Ferreira"
-if(sobrenome.length >= 6 || nome[0] == "E"){
+if(sobrenome.length >= 6 || sobrenome.substring(0,1) == "E"){
     console.log("Você tem um sobrenome com 6 letras ou seu nome começa com E")
 }else{
     console.log("Seu sobrenome tem menos de 6 letras e seu nome não começa com E")
